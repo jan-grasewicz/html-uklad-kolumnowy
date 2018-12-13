@@ -12,21 +12,27 @@
     width: 20%;
 }
 .main-content {
-    width: 60%;
-    background-color: Bisque;
+    width: 50%;
+    padding: 10px;
+    margin: ;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    background-color: ;
 }
 .site-menu {
-    background-color: LightCyan;
+    margin-right: 10px;
+    background-color: ;
 }
 .sidebar {
-    background-color: Gold;
+    margin-left: 10px;
+    background-color: ;
 }
 /*Menu*/
 .site-nav {
     background-color: lightcyan;
     list-style: none;
     padding: 0;
-    width :200px;
+    width :160px;
     border: 1px solid lightblue
 }
 .site-nav .site-nav-item {
@@ -51,7 +57,7 @@ body {
     font-family: Verdana;
 }
 article {
-    width: 800px;
+    margin-bottom: 50px;
 }
 article header h1 {
     color: green;
@@ -62,7 +68,6 @@ article header p {
 }
 article figure {
     border: 3px solid black;
-    width: 600px;
     padding: 5px;
 }
 article figure img {
