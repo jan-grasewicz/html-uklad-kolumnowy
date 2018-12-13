@@ -22,26 +22,29 @@
     background-color: Gold;
 }
 /*Menu*/
-body {
-    font-family: Verdana;
+.site-nav {
+    background-color: lightcyan;
+    list-style: none;
+    padding: 0;
+    width :200px;
+    border: 1px solid lightblue
 }
-article {
-    width: 800px;
+.site-nav .site-nav-item {
+    border-bottom: 1px solid lightblue;
+    padding : 5px;
 }
-article header h1 {
-    color: green;
+.site-nav .site-nav-item:last-child {
+    border-bottom: none;
 }
-article header p {
-    background-color: red;
-    color: white;
+.site-nav .site-nav-item a {
+    color: black;
+    text-decoration: none;
 }
-article figure {
-    border: 3px solid black;
-    width: 600px;
-    padding: 5px;
+.site-nav .site-nav-item a:hover {
+    text-decoration: underline;
 }
-article figure img {
-    width: 100%;
+.site-nav .site-nav-item:hover {
+    background-color: lightblue;
 }
 /*Article*/
 body {
